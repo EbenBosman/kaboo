@@ -1,0 +1,167 @@
+/*
+  color: #3cc88f;
+  color: #ff6b70;
+  color: #f7a900;
+  color: #21d7d9;
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #444;
+}
+
+a:hover {
+  color: #444;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a:hover,
+a:focus,
+input,
+textarea {
+  text-decoration: none;
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #545454;
+}
+
+body {
+  background-color: #f1f1f145 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: #6a6a6a;
+  overflow-x: hidden;
+}
+
+.btn-success {
+  background-color: #51be78;
+  border-color: #51be78;
+}
+.btn-success:hover {
+  background-color: #76da99 !important;
+  border-color: #76da99 !important;
+}
+.btn-success:active {
+  background-color: #41ac66 !important;
+  border-color: #41ac66 !important;
+}
+.btn {
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+
+/* ===================================== Navbar ================================== */
+.logo {
+  max-width: 180px;
+}
+
+.quick-contact-info {
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 15px;
+}
+
+.quick-contact-info ul li {
+  float: left;
+  list-style: none;
+} 
+
+.quick-contact-info ul li a {
+  color: #fff;
+}
+
+.quick-contact-info ul li i {
+  font-size: 18px;
+}
+
+.followus-label {
+  font-weight: bold;
+}
+
+.social-icon {
+  float: right;
+}
+
+/* ===================================== Slider ================================== */
+
+.carousel-caption h1 {
+  color: #fff;
+}
+
+/* ===================================== About Us, Contact, Mission, Vision & Services ================================== */
+.qr-code {
+  font-size: 10rem;
+  color: #4a90e2;
+}
+
+.card-text {
+  font-size: 13px !important;
+}
+
+.developer {
+  background: #1a202f;
+  color: #fff;
+}
+
+.developer a {
+  color: #fff;
+}
+
+.contact {
+  background-color: #1e2436;
+  color: #fff;
+}
+
+.contact h1 {
+  color: #fff;
+}
+
+.contact h1::after,
+.services h1::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 2px solid #51be78;
+}
+
+.about-us h4::after {
+  content: "";
+  display: block;
+  width: 50px;
+  padding-top: 2px;
+  border-bottom: 2px solid #51be78;
+}
+
+/* ===================================== Content Page ================================== */
+.content-page-nav {  
+  background-color: #eaeaea;
+}
