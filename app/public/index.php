@@ -20,10 +20,10 @@
         <div class="container-fluid bg-white border-bottom m-0 p-0">
             <div class="container-fluid quick-contact-info">
                 <div class="container">
-                    <div class="row pt-2 pb-1">
-                        <div class="col-sm-12">
+                    <div class="row w-100 p-0 m-0">
+                        <div class="col-sm-12 pt-2 pb-2">
                             <ul>
-                                <li class="pr-3 pb-1">
+                                <li class="pr-3">
                                     <a href="tel:+27799748012" target="_blank"><i class="fa fa-volume-control-phone"></i> +27 79 974 8012</a>
                                 </li>
                                 <li>

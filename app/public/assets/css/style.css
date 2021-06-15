@@ -92,7 +92,7 @@ body {
 .quick-contact-info ul li {
   float: left;
   list-style: none;
-} 
+}
 
 .quick-contact-info ul li a {
   color: #fff;
@@ -108,6 +108,36 @@ body {
 
 .social-icon {
   float: right;
+}
+
+@media only screen and (min-device-width: 460px) and (max-device-width: 530px) {
+  .quick-contact-info {
+    font-size: 13px;
+  }
+
+  .quick-contact-info ul li i {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-device-width: 460px) {
+  .quick-contact-info {
+    font-size: 13px;
+  }
+
+  .quick-contact-info ul li i {
+    font-size: 13px;
+  }
+
+  .quick-contact-info ul {
+    width: 100%;
+    display: grid !important;
+    text-align: center;
+  }
+
+  .quick-contact-info ul li {
+    display: inline-block;
+  }
 }
 
 /* ===================================== Slider ================================== */
@@ -162,6 +192,6 @@ body {
 }
 
 /* ===================================== Content Page ================================== */
-.content-page-nav {  
+.content-page-nav {
   background-color: #eaeaea;
 }
